@@ -1,0 +1,29 @@
+body {
+	background-color: #D2B48C;
+}
+
+.question-container{
+	background-color: white;
+	padding: 20px;
+}
+
+h1 {
+	font-family: arial;
+	text-align: center;
+}
+
+.question {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.answer{
+font-family: arial;
+	font-size: 15px;
+}
+
+ol{
+font-family: arial;
+	font-size: 15px;
+}
