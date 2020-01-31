@@ -1,24 +1,23 @@
 
 .image {
 position: absolute;
-left:27rem;
-top:5rem;
-
+left:29%;
+top:14%;
 }
 
 #one {
 position: absolute;
-left: 79.5rem;
-right: 5.5rem;
-top: 5rem; 
-bottom: 5rem;
+left: 76%;
+right: 20%;
+top: 10%; 
+bottom: 10%;
 }
 #two {
 position: absolute;
-left: 4.6rem;
-right: 80rem;
-top: 5rem;
-bottom: 5rem;
+left: 16%;
+right: 80%;
+top: 10%;
+bottom: 10%;
 }
 
 .button-hover {
