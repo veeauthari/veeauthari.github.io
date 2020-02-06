@@ -45,3 +45,41 @@ left:90%;
 bottom: 5%;
 position: absolute;
 }
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid #daabffed;
+    border-left: 400px solid #96e0ff;
+    border-bottom: 30px solid transparent;
+}
+.triangle2 {
+    width: 0px;
+    height: 0px;
+    border-top: 24px solid transparent;
+    border-right: 400px solid #8dfb9a;
+    border-bottom: 200px solid #ffdd97;
+    padding-top: 0;
+}
+
+.triangle3 {
+    width: 0px;
+    height: 0px;
+    border-left: 400px solid #fff496;
+    border-bottom: 60px solid #ffb196d9;
+}
+.triangle4 {
+    width: 0px;
+    height: 0px;
+    border-top: 24px solid #fff496;
+    border-right: 400px solid #ffdd97;
+    border-bottom: 10px solid #ffb19600;
+}
+
+.triangle5 {
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid #daabff00;
+    border-left: 400px solid #ffb196;
+    border-bottom: 200px solid #fff496;
+}
