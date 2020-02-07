@@ -8,15 +8,170 @@
 
 
 body {
-  background-color: black;
+	background-color: black;
 }
 
 .frame {
-  width: 95vw;
-  height: 57vw;
-  background: white;
-  margin: 2.5vw auto;
-  position: relative;
+	width: 95vw;
+	height: 57vw;
+	background: white;
+	margin: 2.5vw auto;
+	position: relative;
 }
 
 /* Your CSS goes here */
+
+.table {
+    width: 800px;
+    height: 135px;
+    transform: skew(45deg, -2deg);
+    background: #caa875;
+    position: relative;
+    left: 18%;
+    top: 39%;
+}
+
+
+.book {
+    height: 5%;
+    width: 10%;
+    /* transform: rotate(5deg); */
+    background-color: #53b7ae;
+    transform: skew(-10deg, 17deg);
+    position: relative;
+    left: 38%;
+    top: 22%;
+}
+.bookside {
+    height: 4.8%;
+    width: 7%;
+    background-color: white;
+    transform: skew(-8deg, -9deg);
+    position: relative;
+    left: 48%;
+    top: 18.8%;
+}
+
+.bookside2 {
+    height: 2.6%;
+    width: 7%;
+    background-color: white;
+    transform: skew(-8deg, -9deg);
+    position: relative;
+    left: 45.2%;
+    top: 7.5%;
+}
+
+.book2 {
+	height: 2.5%;
+    width: 7%;
+    background-color: #dcdcdc;
+    transform: skew(-8deg, 17deg);
+    position: relative;
+    left: 38.2%;
+    top: 9.3%;
+}
+
+.camera {
+	width: 4%;
+    height: 6%;
+    background: black;
+    transform: skew(-7deg, 19deg);
+    position: relative;
+    left: 31%;
+    top: 25.6%;
+    z-index: 1;
+}
+
+.vase {
+    width: 5%;
+    height: 10%;
+    background: #f9eecfeb;
+    border-radius: 50% 47% 47% 46% / 66% 61% 38% 34%;
+    position: relative;
+    left: 42%;
+    top: -5.5%;
+    z-index: 1;
+}
+
+.stem {
+    width: 0.4%;
+    height: 7%;
+    background: #026d02;
+    position: relative;
+    left: 44%;
+    top: -21.4%;
+}
+
+.stem2 {
+    width: 0.4%;
+    height: 7%;
+    background: green;
+    position: relative;
+    left: 45%;
+    top: -28.4%;
+    transform: skew(-10deg, 10deg);
+}
+
+.stem3 {
+    width: 0.4%;
+    height: 7%;
+    background: #0e9c0e;
+    position: relative;
+    left: 43.6%;
+    top: -35.4%;
+    transform: skew(10deg, -2deg);
+}
+
+.flower {
+    width: 2%;
+    height: 5%;
+    background: #ffbbbb;
+    border-radius: 85% / 90%;
+    transform: skew(-10deg, -5deg);
+    position: relative;
+    left: 45%;
+    top: -46%;
+}
+
+.flower2 {
+    width: 2%;
+    height: 4%;
+    background: #e08585;
+    border-radius: 85% / 90%;
+    transform: skew(-10deg, -44deg);
+    position: relative;
+    left: 45.5%;
+    top: -50%;
+}
+
+.flower3 {
+    width: 2%;
+    height: 5%;
+    background: #ffbbbb;
+    border-radius: 85% / 90%;
+    transform: skew(10deg, -5deg);
+    position: relative;
+    left: 42%;
+    top: -56%;
+}
+
+.book3 {
+    height: 16.5%;
+    width: 7%;
+    background-color: #e0e0e0;
+    transform: skew(-8deg, -8deg);
+    position: relative;
+    left: 70.2%;
+    top: -53.7%;
+}
+
+.booktop {
+    height: 3.2%;
+    width: 7.5%;
+    background-color: #4e4e4e;
+    transform: skew(75deg, -8deg);
+    position: relative;
+    left: 41.5%;
+    top: -59.8%;
+}

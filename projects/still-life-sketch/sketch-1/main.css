@@ -6,15 +6,15 @@
 */
 
 body {
-  background-color: black;
+	background-color: black;
 }
 
 .frame {
-  width: 1000px;
-  height: 600px;
-  background: white;
-  margin: 30px auto;
-  position: relative;
+	width: 1000px;
+	height: 600px;
+	background: white;
+	margin: 30px auto;
+	position: relative;
 }
 
 /* Your CSS goes here */
@@ -23,7 +23,7 @@ body {
 }
 
 .book1 {
-    height: 58px;
+	height: 58px;
     width: 200px;
     /* transform: rotate(5deg); */
     background-color: #53b7ae;
@@ -119,21 +119,21 @@ body {
 }
 
 .stem2 {
-    width: 8px;
-    height: 63px;
+    width: 0.4%;
+    height: 7%;
     background: green;
-    position: fixed;
-    left: 37.7%;
-    top: 24.6%;
+    position: relative;
+    left: 45%;
+    top: -28.4%;
     transform: skew(-10deg, 10deg);
 }
 
 .stem3 {
-    width: 8px;
-    height: 68px;
+    width: 0.4%;
+    height: 7%;
     background: #0e9c0e;
-    position: fixed;
-    left: 36.6%;
-    top: 24.6%;
-    transform: skew(10deg, 10deg);
+    position: relative;
+    left: 43.6%;
+    top: -35.4%;
+    transform: skew(10deg, -2deg);
 }
