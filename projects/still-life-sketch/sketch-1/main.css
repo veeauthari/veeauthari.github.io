@@ -1,0 +1,139 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.table{
+}
+
+.book1 {
+    height: 58px;
+    width: 200px;
+    /* transform: rotate(5deg); */
+    background-color: #53b7ae;
+    position: fixed;
+    left: 34%;
+    top: 50%;
+}
+
+.book2{
+    height: 27px;
+    width: 120px;
+    /* transform: rotate(3deg) skew(-2deg); */
+    /* transform: rotate(5deg); */
+    background-color: #d2d2d2;
+    position: fixed;
+    left: 34%;
+    top: 46.1%;
+    z-index: 2;
+}
+
+.vase {
+    width: 85px;
+    height: 97px;
+    background: #f9eecfeb;
+    border-radius: 50% 47% 47% 46% / 66% 61% 38% 34%;
+    position: fixed;
+    left: 34%;
+    top: 33%;
+    z-index: 1;
+}
+
+.camera {
+    width: 31px;
+    height: 84px;
+    background: black;
+    position: fixed;
+    left: 26%;
+    top: 45.6%;
+}
+
+.camera-lens {
+    /* height: 100px; */
+    height: 43px;
+    width: 16px;
+    background-color: black;
+    border-radius: 100px / 50px;
+    position: absolute;
+    left: 20%;
+    top: 51%;
+}
+
+      
+.book3 {
+    width: 112px;
+    height: 145px;
+    background: #c1c1c1;
+    position: fixed;
+    right: 26%;
+    top: 36.8%;
+}
+
+.cat {
+    position: relative;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #f9eecfeb transparent;
+    position: fixed;
+    left: 53%;
+    top: 50%;
+}
+
+.cat:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent #f9eecfeb;
+}
+
+.stem {
+    width: 8px;
+    height: 63px;
+    background: #026d02;
+    position: fixed;
+    left: 37%;
+    top: 24.6%;
+}
+
+.stem2 {
+    width: 8px;
+    height: 63px;
+    background: green;
+    position: fixed;
+    left: 37.7%;
+    top: 24.6%;
+    transform: skew(-10deg, 10deg);
+}
+
+.stem3 {
+    width: 8px;
+    height: 68px;
+    background: #0e9c0e;
+    position: fixed;
+    left: 36.6%;
+    top: 24.6%;
+    transform: skew(10deg, 10deg);
+}
