@@ -22,8 +22,8 @@ body {
 /* Your CSS goes here */
 
 .table {
-    width: 800px;
-    height: 135px;
+    width: 70%;
+    height: 20%;
     transform: skew(45deg, -2deg);
     background: #caa875;
     position: relative;
