@@ -112,7 +112,7 @@ margin-left:35%;
     font-family: 'helvetica', sans-serif;
     font-style: normal;
     position: absolute;
-    top: 308%;
+    top: 329%;
     right: 70%;
     left: 3%;
 }
@@ -157,6 +157,37 @@ a:hover {
 	text-decoration: underline;
 }
 
+.suicidekit{
+	margin-left:100%;
+}
 
+.cat{
+	text-align: center;
+}
+
+.monamour{
+	text-align: center;
+}
+
+.suicide{
+	font-size: 13pt;
+	font-family: 'helvetica', sans-serif;
+	font-style: normal;
+	text-align: center;
+}
+
+.cat-p{
+	font-size: 13pt;
+	font-family: 'helvetica', sans-serif;
+	font-style: normal;
+	text-align: center;
+}
+
+.mon-p{
+	font-size: 13pt;
+	font-family: 'helvetica', sans-serif;
+	font-style: normal;
+	text-align: center;
+}
 
 
