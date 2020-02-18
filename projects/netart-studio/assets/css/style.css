@@ -1,0 +1,162 @@
+body {
+	background-color: #FFFAF0;
+}
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-content: center;
+}
+
+h1{
+	margin-top: -5%;
+    margin-left: -3%;
+    margin-bottom: 4%;
+    font-size: 110pt;
+	font-family: 'helvetica', sans-serif;
+	position: relative;
+}
+
+h3{
+	text-align: center;
+	margin-top: 0%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom:0%;
+	font-size: 30pt;
+	font-family: 'helvetica', sans-serif;
+}
+
+.quote-1{
+	width: 90%;
+	background: #ffaeb8;
+	padding: 6%;
+	margin-left:-1%;
+}
+
+.quote-2{
+	width: 90%;
+	background: #d00000;
+	padding: 6%;
+	margin-left:-1%;
+	margin-bottom:-1%;
+}
+
+.intro {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+	font-size: 18pt;
+	font-family: 'helvetica', sans-serif;
+}
+
+.intro-2 {
+	text-align: justify;
+	font-size: 18pt;
+	font-family: 'helvetica', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+    margin-bottom: 8%;
+}
+
+img {
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all .4s ease-in-out;  
+}
+
+img:hover {
+	filter: none;
+	-webkit-filter: grayscale(0);
+	-webkit-transform: scale(1.01);
+}
+    
+.mouchette-pic {
+	width: 100%;
+}
+
+.netscape {
+	width: 100%;
+}
+
+.card {
+	width: 100%;
+}
+
+.international{
+position:relative;
+margin-left:35%;
+}
+
+.wattle-p{
+	font-size: 25pt;
+    font-family: 'helvetica', sans-serif;
+    font-style: normal;
+    position: absolute;
+    top: 228%;
+    left: 60%;
+    right: 12%;
+}
+
+.in{
+    font-size: 8pt;
+    font-family: 'helvetica', sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 419%;
+    left: 34%;
+}
+
+.in-p{
+    font-size: 25pt;
+    font-family: 'helvetica', sans-serif;
+    font-style: normal;
+    position: absolute;
+    top: 308%;
+    right: 70%;
+    left: 3%;
+}
+
+figcaption{
+	font-size: 8pt;
+	font-family: 'helvetica', sans-serif;
+	font-style: italic;
+	position:relative;
+}
+
+.col-img1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.p-mou {
+	font-size: 13pt;
+	font-family: 'helvetica', sans-serif;
+	font-style: normal;
+}
+.p-card {
+	font-size: 13pt;
+	font-family: 'helvetica', sans-serif;
+	font-style: normal;
+}
+.p-netscape {
+	font-size: 13pt;
+	font-family: 'helvetica', sans-serif;
+	font-style: normal;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffaeb8;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+
+
+

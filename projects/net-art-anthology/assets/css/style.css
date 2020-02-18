@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: 'windsor';
+  src: url('../font/windsor.woff2') format('woff2'),
+       url('../font/windsor.woff') format('woff');
+  font-style: normal;
+}
+
+.row{
+display: flex;
+}
+
+.col {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px red;
+}
+
+.col-2 {
+    width: 30%;
+    text-align: right;
+    font-family: helvetica;
+    font-size: 13pt;
+}
+
+.col-3 {
+    width: 30%;
+    text-align: justify;
+    font-family: helvetica;
+    font-size: 13pt;
+	margin-top: 15%;
+}
+
+.col-6 {
+  width: 30%;
+  text-align: justify;
+  font-family: helvetica;
+  font-size: 13pt;
+  margin-top: 15%;
+}
+
+.col-7 {
+  width: 10%;
+
+}
+
+h1 {
+font-size: 40pt;
+font-family: 'windsor';
+color: red;
+text-shadow: 3px 3px black;
+line-height:20pt;
+margin-top:40%;
+}
+
+h2 {
+font-size: 30pt;
+font-family: 'windsor';
+color: #fbd92c;
+text-shadow: 2px 2px black;
+line-height: 4pt;
+}
+
+h3 {
+font-size: 25pt;
+font-family: 'windsor';
+}
+
+
+
