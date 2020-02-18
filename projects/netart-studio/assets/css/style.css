@@ -36,10 +36,12 @@ h3{
 
 .quote-2{
 	width: 90%;
-	background: #d00000;
-	padding: 6%;
-	margin-left:-1%;
-	margin-bottom:-1%;
+    background: #d00000;
+    padding: 6%;
+    position: relative;
+    top: 800;
+    margin-left: -1%;
+    margin-bottom: -1%;
 }
 
 .intro {
@@ -162,7 +164,11 @@ a:hover {
 }
 
 .cat{
-	text-align: center;
+    position: absolute;
+    top: 550%;
+    left: 33%;
+    right: 34%;
+	
 }
 
 .monamour{
@@ -171,23 +177,35 @@ a:hover {
 
 .suicide{
 	font-size: 13pt;
-	font-family: 'helvetica', sans-serif;
-	font-style: normal;
-	text-align: center;
+    font-family: 'helvetica', sans-serif;
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 33%;
+    right: 34%;
 }
 
 .cat-p{
-	font-size: 13pt;
-	font-family: 'helvetica', sans-serif;
-	font-style: normal;
-	text-align: center;
+    font-size: 13pt;
+    font-family: 'helvetica', sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: absolute;
+    top: 641%;
+    left: 33%;
+    right: 44%;
 }
 
 .mon-p{
-	font-size: 13pt;
-	font-family: 'helvetica', sans-serif;
-	font-style: normal;
-	text-align: center;
+    font-size: 13pt;
+    font-family: 'helvetica', sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: absolute;
+    top: 556%;
+    left: 3%;
+    right: 73%;
 }
 
 
