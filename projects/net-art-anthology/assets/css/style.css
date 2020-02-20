@@ -6,8 +6,49 @@
   font-style: normal;
 }
 
+.column{
+  float: left;
+}
+
 .row{
 display: flex;
+}
+
+.row-2{
+display: flex;
+width: 260%;
+background-color:black;
+margin-top:5%;
+margin-left:-1%;
+}
+
+.link{
+font-family: 'windsor';
+font-size: 25pt;
+color: white;
+text-decoration: none;
+position: absolute;
+left:45%;
+right:30%;
+}
+
+.link:hover{
+font-size: 25pt;
+color: red;
+font-style: italic;
+text-decoration: underline;
+}
+
+img {
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all .4s ease-in-out;  
+}
+
+img:hover {
+	filter: none;
+	-webkit-filter: grayscale(0);
+	-webkit-transform: scale(1.01);
 }
 
 .col {
@@ -40,25 +81,52 @@ display: flex;
 }
 
 .col-7 {
-  width: 10%;
+	
+	width: 33%;
+    text-align: justify;
+    font-family: helvetica;
+    font-size: 13pt;
+	margin-top: 4%;
+}
 
+.col-8 {
+	width: 33%;
+    text-align: justify;
+    font-family: helvetica;
+    font-size: 13pt;
+	margin-top: 4%;
+}
+
+.col-9 {
+	width: 33%;
+    text-align: justify;
+    font-family: helvetica;
+    font-size: 13pt;
+	margin-top: 4%;
 }
 
 h1 {
-font-size: 40pt;
+transform: rotate(90deg);
+font-size: 64pt;
 font-family: 'windsor';
 color: red;
 text-shadow: 3px 3px black;
 line-height:20pt;
-margin-top:40%;
+position:absolute;
+top:41%;
+left:1.8%;
 }
 
 h2 {
+transform: rotate(90deg);
 font-size: 30pt;
 font-family: 'windsor';
 color: #fbd92c;
 text-shadow: 2px 2px black;
 line-height: 4pt;
+position:absolute;
+top:68%;
+left:7%;
 }
 
 h3 {
@@ -66,5 +134,21 @@ font-size: 25pt;
 font-family: 'windsor';
 }
 
+.caption {
+font-size: 8pt;
+font-family: 'helvetica', sans-serif;
+font-style: italic;
+text-align: left;
+color: white;
+padding-left:2%;
+margin-top:-2%;
+}
 
+.p-mou {
+font-size: 14pt;
+font-family: 'helvetica', sans-serif;
+text-align: justify;
+padding:2%;
+color: white;
+}
 
