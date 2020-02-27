@@ -1,0 +1,131 @@
+html{
+	background-color: black;
+}
+
+.row{
+	display:flex;
+	max-height:60vh;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.col{
+	display: flex;
+	padding:10px;
+	min-height: 30vh;
+}
+
+.title {
+	font-size: 20vw;
+	color: yellow;
+	margin: auto;
+	text-decoration: none;
+	animation: text-flicker 2s linear infinite;
+	font-family: 'Covered By Your Grace', cursive;
+	margin-top: -38%;
+}
+
+.theatre{
+	color: lightyellow;
+	font-family: 'helvetica', sans-serif;
+	font-size: 2vw;
+	margin-top:-50%;
+	margin-right: 70%;
+}
+
+.small-title{
+	color: lightyellow;
+	font-family: 'helvetica', sans-serif;
+	font-size: 2vw;	
+	margin-top: -1%;
+}
+
+.body{
+	font-family: 'helvetica', sans-serif;
+    color: lightyellow;
+    font-size: 1.5vw;
+    margin-top: 16.5%;
+    margin-left: 75.5%;
+    margin-right: 2%;
+}
+	
+@keyframes text-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px black;
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 20px yellow;
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 20px yellow;
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px yellow;
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 29px yellow;
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 20px black;
+  }
+  
+  70% {
+    opacity:1;
+    text-shadow: 0px 0px 20px yellow;
+  }
+  
+  82% {
+    opacity:0.2;
+    text-shadow:0px 0px 20px black;
+  }
+  100% {
+    opacity:1;
+    text-shadow: 0px 0px 23px yellow;
+  }
+}
+
+@media (max-width: 700px) {
+	body{
+		background-color: yellow;
+	}
+	img{
+		width:97vw;
+	}
+	.theatre{
+		color: black;
+		font-size: 4vw;
+		margin-right: -5%;
+		margin-left: 6%;
+    	margin-top: -56%;
+	}
+	.small-title{
+		color: black;
+		font-size: 4vw;
+		margin-top:-91%;
+		margin-left: 27%;
+	}
+	.body{
+		color: black;
+		font-size: 4vw;
+		margin:auto;
+		margin-left: 2%;
+    	margin-right: 2%;
+    	text-align: justify;
+	}
+	.title{
+		color: black;
+		font-size: 30vw;
+		margin-top:9.5%;
+	}
+}
