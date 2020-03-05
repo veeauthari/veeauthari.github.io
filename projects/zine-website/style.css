@@ -1,0 +1,250 @@
+@font-face {
+      font-family: 'Druk Wide';
+      src: url('Druk-WideMedium.woff2') format('woff2'),
+          url('Druk-WideMedium.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Druk Wide Super';
+      src: url('Druk-WideSuper.woff2') format('woff2'),
+          url('Druk-WideSuper.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+.v1 {
+    border-left: 6px solid black;
+    height: 45vh;
+    position: absolute;
+    left: 65.5%;
+    /* margin-left: -3px; */
+    top: 55.5%;
+}
+
+.v2 {
+    border-left: 6px solid black;
+    height: 97vh;
+    position: absolute;
+    left: 65.5%;
+    /* margin-left: -3px; */
+    top: 200%;
+}
+
+
+.flex-container{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-align-items:flex-start;
+	align-items:flex-start;
+	-webkit-align-content:flex-start;
+	align-content:flex-start;
+} 
+
+.main{
+/*  	background-color:pink; */
+ 	margin-top:23%;
+ 	height: 56vh;
+	align-items: center;
+	justify-content: center;
+}  
+
+
+h1 {
+	font-family: 'druk wide';
+	font-style: normal;
+	font-size: 50pt;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.introduction{
+	font-family: 'druk wide';
+	font-style: normal;
+	font-size: 1.8vw;
+	line-height: 2.4vw;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom: 10%;
+}
+.hr1 {
+  border-left: 6px solid black;
+  height: 202vh;
+  position: absolute;
+  left: 50.5%;
+/*   margin-left: -3px; */
+  top: -1%;
+  transform: rotate(90deg);
+  overflow: hidden;
+}
+
+.h3 {
+	font-family: 'druk wide';
+	font-size: 1.5vw;
+	position: absolute;
+	left:68%;
+	top: 204%;
+}
+
+.h3-2 {
+    font-family: 'druk wide';
+    font-size: 1.5vw;
+    position: absolute;
+    left: 68.5%;
+    top: 241%;
+}
+
+.separated{
+	font-family: 'helvetica', sans-serif;
+	font-size: 1.25vw;
+	position: absolute;
+	left: 75%;
+	top: 210%;
+	right: 3%;
+}
+
+.why{
+    font-family: 'helvetica', sans-serif;
+    font-size: 1.25vw;
+    position: absolute;
+    left: 75%;
+    top: 247%;
+    right: 4%;
+}
+
+.separated-image{
+	width: 63vw;
+	margin-top: 7%;
+}
+
+.img{
+	max-width:100vw;
+}
+.sitelink{
+	font-family: 'druk wide';
+	font-size: 10pt;
+	position: absolute;
+	left: 29%;
+	top: 285vh;
+	text-decoration: underline;
+}
+
+.hr2 {
+    border-left: 6px solid black;
+    height: 200vh;
+    position: absolute;
+    left: 50%;
+    /* margin-left: -3px; */
+    top: 100%;
+    transform: rotate(90deg);
+    overflow: hidden;
+}
+
+a {
+	font-family: 'Druk Wide';
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+.hr3 {
+    border-left: 6px solid black;
+    height: 170vh;
+    position: absolute;
+    left: 42%;
+    /* margin-left: -3px; */
+    top: 212%;
+    transform: rotate(90deg);
+    overflow: hidden;
+}
+ 
+
+.interviewee{
+	font-family: 'druk wide';
+	font-size: 1.5vw;
+	transform: rotate(90deg);
+	position: absolute;
+	top: 303vh;
+	right: 6vw;
+}  
+
+.laura{
+    position: absolute;
+    top: 300vh;
+    left: 11vw;
+    width: 400px; 
+}
+
+.nicole{
+    position: absolute;
+    top: 300vh;
+    left: 48vw;
+    width: 400px; 
+}
+
+.killian{
+	font-family: 'druk wide';
+	font-size: 10pt;
+	position: absolute;
+	left: 59%;
+    top: 380vh;
+    margin-bottom:5%;
+    text-decoration: underline;
+}
+.coombs{
+	font-family: 'druk wide';
+	font-size: 10pt;
+	position: absolute;
+	left: 21%;
+    top: 380vh;
+    text-decoration: underline;
+}
+
+.images{
+    margin: auto;
+    position: absolute;
+    top: 6vh;
+}
+.caption-1{
+	font-family: 'helvetica';
+    font-size: 1.2vw;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5vw;
+    position: relative;
+    top: 101vh;
+    left: 51vw;
+    margin-right: 73vw;
+}
+.caption-2{
+    font-family: 'helvetica';
+    font-size: 1.2vw;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5vw;
+    position: relative;
+    top: 93vh;
+    left: 12vw;
+    margin-right: 71vw;
+    margin-bottom:10vh;
+}
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+	filter: grayscale(50%);
+	transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+	filter: grayscale(0%);
+	transition: transform .5s ease;
+	transform: scale(1.05);
+}

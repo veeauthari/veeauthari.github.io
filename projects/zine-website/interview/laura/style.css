@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+      font-family: 'Druk Wide';
+      src: url('Druk-WideMedium.woff2') format('woff2'),
+          url('Druk-WideMedium.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Druk Wide Super';
+      src: url('Druk-WideSuper.woff2') format('woff2'),
+          url('Druk-WideSuper.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+.title{
+	font-family: 'druk wide';
+	font-size: 20pt;
+	position: absolute;
+	left: 42.5%;
+    top: 7vh;
+    text-decoration: underline;
+}
+
+.homepage{
+	font-family: 'druk wide';
+	font-size: 10pt;
+	position: absolute;
+	left:3%;
+    top: 2vh;
+    text-decoration: underline;
+}
+
+.killian{
+	font-family: 'druk wide';
+	font-size: 10pt;
+	position: absolute;
+	left: 89%;
+    top: 2vh;
+    text-decoration: underline;
+}
+
+.v1 {
+  border-left: 6px solid black;
+  height: 510vh;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 25.5%;
+}
+
+.column-0 {
+  float: left;
+  width: 50%;
+  padding: 18px;
+  height:17vh;
+}
+
+.column-end {
+  float: left;
+  width: 50%;
+  padding: 18px;
+  height:30vh;
+}
+
+.column, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, 
+.column-8, .column-9, .column-10 {
+  float: left;
+  width: 50%;
+  padding: 18px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.q-2 {
+	font-family: 'druk wide';
+	font-size: 1.6vw;
+	text-align: right;
+	margin-left:45%;
+
+}
+
+.q {
+	font-family: 'druk wide';
+	font-size: 1.6vw;
+	text-align: right;
+	margin-left:53%;
+
+}
+
+.a {
+	font-family: 'helvetica', sans-serif;
+	font-size: 1.3vw;;
+	line-height: 4vh;
+	text-align: left;
+	margin-top:3.9%;
+	margin-right:50%;
+}
+
+/* cause itself */
+.showme{
+	border: 2px solid blue;
+	padding:20px;
+	font-family: 'helvetica', sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 15pt;
+    text-align: center;
+    position: absolute;
+    top: 160vh;
+    left: 79vw;
+    right: 11vh;
+    text-decoration: none;
+}
+.showme{ 
+display: none;
+
+}
+.showhim:hover .showme{
+display : block;
+}
+.showhim:hover .ok{
+display : none;
+}
+
+/* thistle */
+.showme-1{
+/*     text-align: center; */
+    position: absolute;
+    top: 220vh;
+    left: 79vw;
+    right: 11vh;
+    max-width:45vw;
+}
+.showme-1{ 
+display: none;
+
+}
+.showhim-1:hover .showme-1{
+display : block;
+}
+.showhim-1:hover .ok-1{
+display : none;
+}
+
+.thistle{
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.thistle-pic{
+	border: 2px solid blue;
+	padding:1vw;
+	max-width:14vw;
+	
+}
+/* women photography */
+.showme-2{
+	font-family: 'helvetica', sans-serif;
+    font-size: 1.25vw;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    top: 335vh;
+    left: 79vw;
+    right: 11vh;
+}
+.showme-2{ 
+	display: none;
+
+}
+.showhim-2:hover .showme-2{
+	display : block;
+}
+.showhim-2:hover .ok-2{
+	display : none;
+}
+.women-pic{
+	border: 2px solid blue;
+	padding:1vw;
+	max-width:14vw;
+}
+	
+/* never be the same */
+.showme-3{
+	font-family: 'helvetica', sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 15pt;
+    text-align: center;
+    border: 2px solid blue;
+    padding:10px;
+    position: absolute;
+    top: 385vh;
+    left: 79vw;
+    right: 11vh;
+    text-decoration: none;
+}
+.showme-3{ 
+display: none;
+
+}
+.showhim-3:hover .showme-3{
+display : block;
+}
+.showhim-3:hover .ok-3{
+display : none;
+}
+
+/* labor union */
+.showme-4{
+	font-family: 'helvetica', sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 15pt;
+    text-align: center;
+    border: 2px solid blue;
+    padding:10px;
+    position: absolute;
+    top: 460vh;
+    left: 79vw;
+    right: 11vh;
+    text-decoration: none;
+}
+.showme-4{ 
+display: none;
+
+}
+.showhim-4:hover .showme-4{
+display : block;
+}
+.showhim-4:hover .ok-4{
+display : none;
+}
+
+.thistle, .women, .cause, .labor, .never{
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	border: 2px solid blue;
+	padding:6px;
+}
+.children{
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+.children:hover{
+	color:orange;
+}
+
+/* 
+.thistle-pic, .women-pic{
+width:26vh;
+}
+ */
+.hide-link{
+	opacity:0;
+}
+.link{
+	position:absolute;
+	left:41vw;
+	top:540vh;
+}
+
+.link:hover{
+	color:orange;
+}
+
+a {
+	font-family: 'Druk Wide';
+	color: black;
+}
+
+a:hover {
+	color: blue;
+	font-style: italic;
+}

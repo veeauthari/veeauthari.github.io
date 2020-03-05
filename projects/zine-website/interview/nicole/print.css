@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+      font-family: 'Druk Wide';
+      src: url('Druk-WideMedium.woff2') format('woff2'),
+          url('Druk-WideMedium.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Druk Wide Super';
+      src: url('Druk-WideSuper.woff2') format('woff2'),
+          url('Druk-WideSuper.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+/* Create two equal columns that floats next to each other */
+.title{
+	font-family: 'druk wide';
+	font-size: 28pt;
+	position: absolute;
+	left: 36%;
+    top: 5vh;
+    text-decoration: underline;
+    color:black;
+}
+
+.homepage{
+	font-family: 'druk wide';
+	font-size: 10pt;
+	position: absolute;
+	left:3%;
+    top: 2vh;
+    text-decoration: underline;
+}
+
+.coombs{
+	font-family: 'druk wide';
+	font-size: 10pt;
+	position: absolute;
+	left: 89%;
+    top: 2vh;
+    text-decoration: underline;
+}
+
+.v1 {
+  border-left: 6px solid black;
+  height: 710vh;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 10%;
+}
+
+.column-0 {
+  float: left;
+  width: 50%;
+  padding: 18px;
+  height:17vh;
+}
+.column, .column-2, .column-3, .column-4, .column-5,
+.column-6, .column-7, .column-8 {
+  float: left;
+  width: 50%;
+  padding: 18px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.q {
+	font-family: 'druk wide';
+	font-size: 3vw;
+	text-align: right;
+	margin-left:38%;
+}
+
+.a {
+	font-family: 'helvetica', sans-serif;
+	font-size: 2vw;
+	line-height: 3vh;
+	text-align: left;
+	margin-top:3.9%;
+	margin-right:45%;
+}
+
+/* BAUHAUS */
+.showme-1{
+	border: 2px solid blue;
+	padding:8px;
+	font-family: 'helvetica', sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 10pt;
+    text-align: center;
+    position: absolute;
+    top: 32vh;
+    left: 155vw;
+    right: 5vh;
+    text-decoration: none;
+    display:block;
+}
+
+
+/* SHIRA */
+.showme{
+	border: 2px solid blue;
+	padding:8px;
+	font-family: 'helvetica', sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 10pt;
+    text-align: center;
+    position: absolute;
+    top: 190vh;
+    left: 158vw;
+    right: 5vh;
+    text-decoration: none;
+    display:block;
+}
+
+
+/* ISSUES */
+.showme-2{
+	border: 2px solid blue;
+	padding:8px;
+	font-family: 'helvetica', sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 10pt;
+    text-align: center;
+    position: absolute;
+    top: 270vh;
+    left: 164vw;
+    right: 12vh;
+    text-decoration: none;
+    display:block;
+}
+.issue-img{
+    width: 14vw;
+    padding:5px;
+}
+
+
+/* CAPITAL G AND D */
+.showme-3{
+	border: 2px solid blue;
+	padding:8px;
+	font-family: 'helvetica', sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 10pt;
+    text-align: center;
+    position: absolute;
+    top: 330vh;
+    left: 160vw;
+    right: 4vh;
+    text-decoration: none;
+    display:block;
+}
+
+
+/* deflates that purpose */
+.showme-4{
+	border: 2px solid blue;
+	padding:8px;
+	font-family: 'helvetica', sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 10pt;
+    text-align: center;
+    position: absolute;
+    top: 660vh;
+    left: 160vw;
+    right: 5vh;
+    text-decoration: none;
+    display:block;
+}
+
+
+/* deflates that purpose */
+.showme-5{
+	border: 2px solid blue;
+	padding:8px;
+	font-family: 'helvetica', sans-serif;
+    font-size: 8pt;
+    font-weight:bold;
+    font-style: italic;
+    line-height: 10pt;
+    text-align: center;
+    position: absolute;
+    top: 700vh;
+    left: 160vw;
+    right: 5vh;
+    text-decoration: none;
+    display:block;
+}
+
+
+.box, .bauhaus, .issues, .deflate, .manifest{
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	border: 1px solid blue;
+	padding:5px;
+}
+.sarah{
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.shira {
+	margin: 0px;
+	background-color: #ffffff;
+	border: 1px solid blue;
+	padding: 5px;
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.link{
+	display:none;
+}
+
+a {
+	font-family: 'Druk Wide';
+	color: black;
+}
+.hide-link{
+	font-family: 'druk wide';
+	font-size: 20pt;
+	display:block;
+	position: relative;
+	left: 75.5vw;
+	top: 5vh;
+	opacity:1;
+}
+.column-end{
+	
+/* 	margin-top: 488vh;
+    margin-bottom: 20vh; */
+}
