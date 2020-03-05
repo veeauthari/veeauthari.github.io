@@ -215,14 +215,14 @@ a:hover {
 }
 .caption-1{
 	font-family: 'helvetica';
-    font-size: 1.2vw;
-    font-style: italic;
-    text-align: center;
-    line-height: 1.5vw;
-    position: relative;
-    top: 101vh;
-    left: 51vw;
-    margin-right: 73vw;
+	font-size: 1.2vw;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.5vw;
+	position: relative;
+	top: 81vh;
+	left: 51vw;
+	margin-right: 73vw;
 }
 .caption-2{
     font-family: 'helvetica';
@@ -231,7 +231,7 @@ a:hover {
     text-align: center;
     line-height: 1.5vw;
     position: relative;
-    top: 93vh;
+    top: 97vh;
     left: 12vw;
     margin-right: 71vw;
     margin-bottom:10vh;
