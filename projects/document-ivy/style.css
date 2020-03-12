@@ -1,0 +1,58 @@
+body{
+	background-color: white;
+	font-family: helvetica;
+}
+.box{
+	position: fixed;
+	border: 10px solid black;
+	height: 90vh;
+	width: 30vw;
+	margin:5px;
+	padding:15px;
+/* 	background-color: #00acee; */
+}
+
+h1{
+	color: black;
+	text-align: center;
+	margin-top: 18vh;
+}
+.one, .two{
+	text-align: center;
+}
+
+.link{
+	position: relative;
+	left: 10.5vw;
+}
+
+.twitter{
+	padding:20px;
+}
+
+a{
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	font-style: italic;
+	color: #00acee;
+}
+
+img{
+	width: 65vw;
+	position: relative;
+	left: 34vw;
+	overflow:hidden;
+}
+
+.caption{
+	position: relative;
+	left: 37vw;
+	font-size: 10pt;
+	margin-top:-3vh;
+	margin-bottom:7vh;
+}
+
+
