@@ -1,18 +1,9 @@
-	$black: #000000;
-	$z-index-cursor: 500;
-	
-*{
-	cursor:none;
-}
+
 :root {
   --cursor-size: 56px;
   --bg: #fff1d0;
 }
 
-.page-wrap {
-  background: var(--bg);
-  min-height: 100vh;
-}
 
 #cursor {
   position: fixed;
