@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+img{
+	height: 50vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
