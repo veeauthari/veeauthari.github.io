@@ -4,12 +4,12 @@
 <link rel="stylesheet" href="style.css">
 		<meta charset="utf-8">
 		<title></title>
-		<title>Core Interaction - Vee</title>
+		<title>Vee Authari</title>
 	</head>
 	<body>
-<!-- 		<h1>CORE INTERACTION</h1> -->
-	<ul>
 		
+	<ul>
+		<div class="content-wrapper">
 		<li onmouseover="javascript:changeColorBg('ADDAFF')" onmouseout="javascript:changeColorBg('white')">
 			<a href="https://veeauthari.github.io/projects/survey/" class="button-hover"> survey </a></li>
 			
@@ -42,8 +42,20 @@
 		
 		<li onmouseover="javascript:changeColorBg('FFD700')" onmouseout="javascript:changeColorBg('white')">
 			<a href="https://veeauthari.github.io/projects/isolation" class="button-hover"> diary</a></li>
-		
+		</div>
+
 		</ul>
+		<svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+    		<defs>
+        		<filter id="goo">
+           			<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+            		<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo"></feColorMatrix>
+            		<feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+        		</filter>
+    		</defs>
+		</svg>
+				
+	<div id="cursor"></div>
 	<script src="script.js"></script>
 </body>
 </html>
