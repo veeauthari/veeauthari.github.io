@@ -1,12 +1,19 @@
+*{
+font-family: helvetica;
+}
 body{
-	margin: 0;
+	margin: auto;
 	background-color: black;
 }
-
+p{
+margin-top:5vh;
+color: white;
+text-align: center;
+}
 img{
-	height: 50vw;
+	margin-top:6vh;
+	height: 35vw;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
-	}
+}
