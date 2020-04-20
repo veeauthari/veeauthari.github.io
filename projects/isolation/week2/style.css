@@ -28,49 +28,42 @@ body{
 	left:2vw;
 }
 
-.days{
-	color:white;
-	position:absolute;
-	top:3.5vw;
-	left:2vw;
-}
-
 .time-1{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-109vw;
+	top:-108vw;
 }
 .time-2{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-99.3vw;
+	top:-98.3vw;
 }
 .time-3{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-89.2vw;
+	top:-88.2vw;
 }
 .time-4{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-79.8vw;
+	top:-78.8vw;
 }
 .time-5{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-70vw;
+	top:-69vw;
 }
 
 .text-one{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-123.5vw;
+	top:-122.5vw;
 	text-decoration:underline;
 }
 
@@ -78,7 +71,7 @@ body{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-112.7vw;
+	top:-111.7vw;
 	text-decoration:underline;
 }
 
@@ -86,14 +79,14 @@ body{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-101.6vw;
+	top:-100.6vw;
 	text-decoration:underline;
 }
 .text-four{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-91.2vw;
+	top:-90.2vw;
 	text-decoration:underline;
 }
 
@@ -101,29 +94,29 @@ body{
 	color:white;
 	position:relative;
 	left:67vw;
-	top:-80.6vw;
+	top:-79.6vw;
 	text-decoration:underline;
 }
 
 .w{
-	color:white;
-	position:relative;
-	top:-13vw;
-	left: 2.5vw;
+    color: white;
+    position: relative;
+    top: -13vw;
+    left: 3.5vw;
 }
 
 .t{
     color: white;
     position: relative;
     top: -21.8vw;
-    left: 3.3vw;
+    left: 3.2vw;
 }
 
 .f{
     color: white;
     position: relative;
     top: -29.8vw;
-    left: 4vw;
+    left: 2.7vw;
 }
 
 .sat{
@@ -137,7 +130,7 @@ body{
     color: white;
     position: relative;
     top: -45.6vw;
-    left: 3.5vw;
+    left: 4.5vw;
 
 }
 
@@ -191,34 +184,34 @@ body{
     top: 77vw;
 }
 
-.black{
-	position:relative;
-	left:51vw;
-	top:10vw;
+.green{
+    position: relative;
+    left: 50.4vw;
+	top: 11.34vw;
 }
 
 .white{
-	position: relative;
-    left: 39vw;
-    top: 23.7vw;
+    position: relative;
+    left: 36.6vw;
+    top: 24.66vw;
 }
 
 .red{
-    position: relative;
-    left: 24vw;
-    top: 37.5vw;
+	position: relative;
+    left: 22.4vw;
+    top: 37.66vw;
 }
 
 .sun{
-	position: relative;
-    left: 9.1vw;
-    top: 49.8vw;
+    position: relative;
+    left: 8.2vw;
+    top: 50.6vw;
 }
 
 .pink{
     position: relative;
     left: -6vw;
-    top: 62.9vw;
+    top: 63.58vw;
     z-index: 0;
 }
 
