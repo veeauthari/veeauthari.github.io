@@ -1,3 +1,167 @@
 body{
 background-color: black;
+font-family: helvetica;
+}
+
+.homepage{
+	text-align: left;
+	position: absolute;
+	top: -2vw;
+	right: 2vw;
+	left:90vw;
+	margin-top:4vw;
+	color: white;
+	font-size: 16px;
+}
+
+.w{
+	color:white;
+	position:relative;
+	top:-13vw;
+	left: 2.5vw;
+}
+
+.t{
+    color: white;
+    position: relative;
+    top: -21.8vw;
+    left: 3.3vw;
+}
+
+.f{
+    color: white;
+    position: relative;
+    top: -29.8vw;
+    left: 4vw;
+}
+
+.sat{
+    color: white;
+    position: relative;
+    top: -37.5vw;
+    left: 3.4vw;
+}
+
+.sund{
+    color: white;
+    position: relative;
+    top: -45.6vw;
+    left: 3.5vw;
+
+}
+
+
+
+.rectangle {
+	height: 5.4vw;
+    width: 0.4vw;
+    background-color: white;
+    position: absolute;
+    right: 11vw;
+    top: 2vw;
+}
+
+.rectangle-2 {
+    height: 65vw;
+    width: 1vw;
+    background-color: white;
+    position: absolute;
+    left: 50vw;
+    right: 50vw;
+    top: 12vw;
+}
+
+.rectangle-3, .rectangle-4, .rectangle-5, .rectangle-6, .rectangle-7, .rectangle-8 {
+    height: 0.2vw;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    left: 0vw;
+    right: 50vw;
+}
+.rectangle-3 {
+    top: 12vw;
+}
+
+.rectangle-4 {
+    top: 25vw;
+}
+.rectangle-5 {
+    top: 38vw;
+}
+
+.rectangle-6 {
+    top: 51vw;
+}
+.rectangle-7 {
+    top: 64vw;
+}
+.rectangle-8 {
+    top: 77vw;
+}
+
+.black{
+	position:relative;
+	left:51vw;
+	top:10vw;
+}
+
+.white{
+	position: relative;
+    left: 39vw;
+    top: 23.7vw;
+}
+
+.red{
+    position: relative;
+    left: 24vw;
+    top: 37.5vw;
+}
+
+.sun{
+	position: relative;
+    left: 9.1vw;
+    top: 49.8vw;
+}
+
+.pink{
+    position: relative;
+    left: -6vw;
+    top: 62.9vw;
+    z-index: 0;
+}
+
+h1{
+    color: white;
+    font-size: 8vw;
+}
+
+.one{
+	position: relative;
+    top: -7.4vw;
+    left: 1vw;
+}
+
+.two{
+    position: relative;
+    top: -16vw;
+    left: 1vw;
+}
+
+.three{
+	position: relative;
+    top: -24vw;
+    left: 1vw;
+}
+
+.four{
+	position: relative;
+    top: -32vw;
+    left: 1vw;
+}
+
+.five{
+	position: relative;
+    top: -40vw;
+    left: 1vw;
 }

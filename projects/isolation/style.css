@@ -1,19 +1,98 @@
-*{
-font-family: helvetica;
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: auto;
+  background-color: black;
+  text-align: center;
 }
-body{
-	margin: auto;
-	background-color: black;
+
+h3 {
+	margin-top:4vw;
+  color: black;
+  font-weight: normal;
+    font-size: 16px;
 }
+
 p{
-margin-top:5vh;
-color: white;
-text-align: center;
+	margin-top:4vw;
+  color: white;
+  font-size: 16px;
 }
+
+.homepage{
+	text-align: left;
+	position: absolute;
+	top: -2vw;
+	right: 2vw;
+	left:90vw;
+}
+
+.rectangle {
+	height: 5.4vw;
+    width: 0.4vw;
+    background-color: white;
+    position: absolute;
+    right: 11vw;
+    top: 2vw;
+}
+
 img{
-	margin-top:6vh;
-	height: 35vw;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+/* margin-top:1vw; */
+  height:72vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.left{
+  width:60px;
+  height:25px;
+  position: relative;
+	left: -18vw;
+	top: -2.2vw;
+
+}
+.right{
+  width:60px;
+  height:25px;
+  position: relative;
+	right: -17vw;
+    top: -3.8vw;
+
+}
+
+button{
+	background-color: transparent;
+	color: transparent;
+	border: transparent;
+    width: 70px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button-left{
+  position: absolute;
+  left: 30vw;
+	top:41vw;
+  z-index:1;
+}
+
+.button-right{
+  position: absolute;
+  right: 30vw;
+    top:41vw;
+  z-index:1;
+}
+
+a{
+	text-decoration:none;
+	color: white;
+  	font-size: 16px;
+}
+
+a:hover{
+	color: #B0C4DE;
+	font-style:italic;
 }

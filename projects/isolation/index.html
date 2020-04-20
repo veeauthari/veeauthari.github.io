@@ -3,15 +3,24 @@
 <head>
 <link rel="stylesheet" href="style.css">
 	<meta charset="utf-8">
-		<title>Isolation Diary</title>
+		<title>Isolation Diary - Days</title>
 	</head>
 	<body>
-		<p> broadcast your thoughts </p>
-	<img src="template.jpg" alt="template">
-		<p> day 1</p>
+	<div class="rectangle"></div>
+	<p class="homepage"> <a href="homepage/index.html"> broadcast your thoughts </a></p> 
+		<h3> broadcast your thoughts </h3>
+	<img id="slide" src="assets/black-2.jpg" alt="template">
+<!-- 		<p id="changeText"> day 1</p> -->
+	    
+	<div class="button-left"> <button onclick="mySlide('prev');"></button></div>
+      <img src="assets/arrow-left.png" class="left">
+    
+	<div class="button-right"><button onclick="mySlide('next');"></button></div>
+      <img src="assets/arrow-right.png" class="right"> 
+    
+    
 	
 	
-	
-		
+		<script src="script.js"></script>
 	</body>
 </html>
