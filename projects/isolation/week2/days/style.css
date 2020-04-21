@@ -75,14 +75,14 @@ button{
 .button-left{
   position: absolute;
   left: 29.6vw;
-	top:40.7vw;
+	top:39.1vw;
   z-index:1;
 }
 
 .button-right{
   position: absolute;
   right: 30.6vw;
-    top:40.7vw;
+    top:39.1vw;
   z-index:1;
 }
 
