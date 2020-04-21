@@ -260,3 +260,108 @@ a:hover{
 	color: #B0C4DE;
 	font-style:italic;
 }
+
+@media only screen and (max-width: 600px) {
+
+	.homepage {
+		position: absolute;
+		top: -2vw;
+		right: 4vw;
+		left:80vw;
+  }
+  	.rectangle {
+	height: 12vw;
+    width: 0.4vw;
+    background-color: white;
+    position: absolute;
+    right: 22vw;
+    top: 2vw;
+}
+	.week-1{
+	color:white;
+	position:absolute;
+	left:2vw;
+	top:-2.3vw;
+}
+
+	.week-2{
+	color:white;
+	position:absolute;
+	left:2vw;
+	top:1.4vw;
+}
+
+.days{
+	color:white;
+	position:absolute;
+	left:2vw;
+	top:5vw;
+	}
+	
+img{
+	height:65px;
+	width:80px;
+}
+	.one{
+	position: relative;
+    top: -9vw;
+    left: 1vw;
+}
+
+.two{
+    position: relative;
+    top: -16vw;
+    left: 1vw;
+}
+
+.three{
+	position: relative;
+    top: -24vw;
+    left: 1vw;
+}
+
+.four{
+	position: relative;
+    top: -32vw;
+    left: 1vw;
+}
+
+.five{
+	position: relative;
+    top: -40vw;
+    left: 1vw;
+	}
+.rectangle-2{
+	top:6rem;
+	height:50rem;
+	}
+.rectangle-3{
+	position:absolute;
+	top:6rem;
+}
+.rectangle-4{
+	position:absolute;
+	top:13rem;
+}
+.rectangle-5{
+	position:absolute;
+	top:20rem;
+}
+.rectangle-6{
+	position:absolute;
+	top:27rem;
+}
+.rectangle-7{
+	position:absolute;
+	top:34rem;
+}
+.rectangle-8{
+	position:absolute;
+	top:41rem;
+}
+.rectangle-9{
+	position:absolute;
+	top:48rem;
+}
+
+}
