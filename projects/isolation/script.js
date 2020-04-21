@@ -1,6 +1,6 @@
 var i = 0,images = ["assets/black-2.jpg",
                         "assets/white-2.jpg",
-                        "assets/red-mockup-2.JPG",
+                        "assets/red-mockup-2.jpg",
                         "assets/sun-mockup-2.jpg",
                         "assets/pink-mockup-2.jpg"];
                             
