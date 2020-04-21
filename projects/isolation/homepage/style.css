@@ -267,3 +267,225 @@ a:hover{
 	color: #B0C4DE;
 	font-style:italic;
 }
+
+@media only screen and (max-width: 600px) {
+
+	.homepage {
+		position: absolute;
+		top: -2vw;
+		right: 4vw;
+		left:80vw;
+  }
+  	.rectangle {
+	height: 12vw;
+    width: 0.4vw;
+    background-color: white;
+    position: absolute;
+    right: 22vw;
+    top: 2vw;
+}
+	.week-1{
+	color:white;
+	position:absolute;
+	left:2vw;
+	top:-2.3vw;
+}
+
+	.week-2{
+	color:white;
+	position:absolute;
+	left:2vw;
+	top:1.4vw;
+}
+
+.days{
+	color:white;
+	position:absolute;
+	left:2vw;
+	top:5vw;
+	}
+	
+img{
+	height:90px;
+	width:100px;
+}
+	.one{
+	position: relative;
+    top: 15vw;
+    left: 1vw;
+}
+
+.two{
+    position: relative;
+    top: 14vw;
+    left: 1vw;
+}
+
+.three{
+	position: relative;
+    top: 13vw;
+    left: 1vw;
+}
+
+.four{
+	position: relative;
+    top: 12vw;
+    left: 1vw;
+}
+
+.five{
+	position: relative;
+    top: 12vw;
+    left: 1vw;
+	}
+.rectangle-2{
+	top:6rem;
+	height:40rem;
+	}
+.rectangle-3{
+	position:absolute;
+	top:6rem;
+}
+.rectangle-4{
+	position:absolute;
+	top:13rem;
+}
+.rectangle-5{
+	position:absolute;
+	top:20rem;
+}
+.rectangle-6{
+	position:absolute;
+	top:27rem;
+}
+.rectangle-7{
+	position:absolute;
+	top:34rem;
+}
+.rectangle-8{
+	position:absolute;
+	top:41rem;
+}
+.rectangle-9{
+	position:absolute;
+	top:48rem;
+}
+.w{
+    position: relative;
+    top: 9vw;
+    left: 1vw;
+}
+
+.t{
+    position: relative;
+    top: 8vw;
+    left: 1vw;
+}
+
+.f{
+    position: relative;
+    top: 7vw;
+    left: 1vw;
+}
+
+.sat{
+    position: relative;
+    top: 6vw;
+    left: 1vw;
+}
+
+.sund{
+    position: relative;
+    top: 6vw;
+    left: 1vw;
+
+}
+.time-1{
+	position:absolute;
+	left:76vw;
+	top:18vw;
+}
+.time-2{
+	position:absolute;
+	left:76vw;
+	top:40vw;
+}
+.time-3{
+	position:absolute;
+	left:76vw;
+	top:63vw;
+}
+.time-4{
+	position:absolute;
+	left:76vw;
+	top:85vw;
+}
+.time-5{
+	position:absolute;
+	left:76vw;
+	top:108vw;
+}
+.text-one{
+	position:absolute;
+	left:76vw;
+	top:25vw;
+	text-decoration:underline;
+}
+
+.text-two{
+	position:absolute;
+	left:76vw;
+	top:47vw;
+	text-decoration:underline;
+}
+
+.text-three{
+	position:absolute;
+	left:76vw;
+	top:70vw;
+	text-decoration:underline;
+}
+.text-four{
+	position:absolute;
+	left:76vw;
+	top:92vw;
+	text-decoration:underline;
+}
+
+.text-five{
+	position:absolute;
+	left:76vw;
+	top:115vw;
+	text-decoration:underline;
+}
+.black{
+    position: absolute;
+    left: 51vw;
+	top: 21vw;
+}
+
+.white{
+    position: absolute;
+    left: 51vw;
+    top: 44vw;
+}
+
+.red{
+	position: absolute;
+    left: 51vw;
+    top: 66vw;
+}
+
+.sun{
+    position: absolute;
+    left: 51vw;
+    top: 89vw;
+}
+
+.pink{
+    position: absolute;
+    left: 51vw;
+    top: 111vw;
+    z-index: 0;
+}
+}

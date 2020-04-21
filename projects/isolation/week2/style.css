@@ -299,41 +299,41 @@ a:hover{
 	}
 	
 img{
-	height:65px;
-	width:80px;
+	height:90px;
+	width:100px;
 }
 	.one{
 	position: relative;
-    top: -9vw;
+    top: 15vw;
     left: 1vw;
 }
 
 .two{
     position: relative;
-    top: -16vw;
+    top: 14vw;
     left: 1vw;
 }
 
 .three{
 	position: relative;
-    top: -24vw;
+    top: 13vw;
     left: 1vw;
 }
 
 .four{
 	position: relative;
-    top: -32vw;
+    top: 12vw;
     left: 1vw;
 }
 
 .five{
 	position: relative;
-    top: -40vw;
+    top: 12vw;
     left: 1vw;
 	}
 .rectangle-2{
 	top:6rem;
-	height:50rem;
+	height:40rem;
 	}
 .rectangle-3{
 	position:absolute;
@@ -363,5 +363,122 @@ img{
 	position:absolute;
 	top:48rem;
 }
+.w{
+    position: relative;
+    top: 9vw;
+    left: 1vw;
+}
 
+.t{
+    position: relative;
+    top: 8vw;
+    left: 1vw;
+}
+
+.f{
+    position: relative;
+    top: 7vw;
+    left: 1vw;
+}
+
+.sat{
+    position: relative;
+    top: 6vw;
+    left: 1vw;
+}
+
+.sund{
+    position: relative;
+    top: 6vw;
+    left: 1vw;
+
+}
+.time-1{
+	position:absolute;
+	left:76vw;
+	top:18vw;
+}
+.time-2{
+	position:absolute;
+	left:76vw;
+	top:40vw;
+}
+.time-3{
+	position:absolute;
+	left:76vw;
+	top:63vw;
+}
+.time-4{
+	position:absolute;
+	left:76vw;
+	top:85vw;
+}
+.time-5{
+	position:absolute;
+	left:76vw;
+	top:108vw;
+}
+.text-one{
+	position:absolute;
+	left:76vw;
+	top:25vw;
+	text-decoration:underline;
+}
+
+.text-two{
+	position:absolute;
+	left:76vw;
+	top:47vw;
+	text-decoration:underline;
+}
+
+.text-three{
+	position:absolute;
+	left:76vw;
+	top:70vw;
+	text-decoration:underline;
+}
+.text-four{
+	position:absolute;
+	left:76vw;
+	top:92vw;
+	text-decoration:underline;
+}
+
+.text-five{
+	position:absolute;
+	left:76vw;
+	top:115vw;
+	text-decoration:underline;
+}
+.green{
+    position: absolute;
+    left: 51vw;
+	top: 21vw;
+}
+
+.white{
+    position: absolute;
+    left: 51vw;
+    top: 44vw;
+}
+
+.red{
+	position: absolute;
+    left: 51vw;
+    top: 66vw;
+}
+
+.sun{
+    position: absolute;
+    left: 51vw;
+    top: 89vw;
+}
+
+.pink{
+    position: absolute;
+    left: 51vw;
+    top: 111vw;
+    z-index: 0;
+}
 }
