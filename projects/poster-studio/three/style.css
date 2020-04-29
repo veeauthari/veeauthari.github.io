@@ -1,0 +1,154 @@
+:root {
+  --cursor-size: 40px;
+  --bg: #FFE4B5;
+}
+
+*{
+	font-family: helvetica;
+}
+
+body{
+overflow:hidden;
+}
+
+#cursor {
+  position: fixed;
+  top: calc(var(--cursor-size) * -0.5);
+  left:  calc(var(--cursor-size) * -0.5);
+  pointer-events: none;
+  mix-blend-mode: difference;  
+  filter: url(#goo);
+}
+
+.cursor-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  border-radius: var(--cursor-size);
+  background: var(--bg);
+  transform-origin: center center;
+}
+
+body{
+	margin:auto;
+	text-align:center;
+	cursor: none;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+svg{
+	height:70vw;
+	margin:auto;
+/* 	position:absolute; */
+}
+
+h1{
+    font-size: 4.4vw;
+    position: absolute;
+    left: 34vw;
+    top: 15vh;
+    right: 42.1vw;
+    text-align: right;
+}
+
+h2{
+    position: absolute;
+    top: 3vw;
+    left: 59.5vw;
+    font-size: 75pt;
+}
+
+.april{
+    font-size: 33pt;
+    position: absolute;
+    top: 12.5vw;
+    left: 59.5vw;
+}
+
+h3 {
+    position: absolute;
+    top: 19.6vw;
+    left: 60.3vw;
+    font-size:13pt;
+}
+
+p {
+    position: absolute;
+    top: 21.8vw;
+    left: 62.4vw;
+}
+
+.lecture{
+	position:absolute;
+    top: 31.6vw;
+    left: 39.3vw;
+	display: flex;
+	flex-direction: column;
+}
+
+li{
+	list-style: none;
+	font-size:24.7pt;
+	line-height:47.8pt;
+}
+
+.one, .two{
+	color: black;
+	text-decoration:none;
+	text-align:center;
+	padding:11px 47.7px;
+	border: 2px solid black;
+	cursor:none;
+}
+
+.three{
+	color: black;
+	text-decoration:none;
+	text-align:center;
+	padding:11px 35px;
+	border: 2px solid black;
+	cursor:none;
+}
+a{
+	color: black;
+	text-decoration: none;
+	cursor:none;
+}
+
+a:hover{
+	font-style:italic;
+	text-decoration: underline;
+}
+
+.one:hover, .two:hover {
+	background-color: yellow;
+	padding:11px 47.7px;
+	border: 2px solid black;
+	font-style:italic;
+	text-decoration:underline;
+}
+
+.three:hover{
+	background-color: yellow;
+	padding:11px 34.6px;
+	border: 2px solid black;
+	font-style:italic;
+	text-decoration:underline;
+}
