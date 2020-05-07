@@ -1,0 +1,168 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-size:50pt;
+  margin-top:-0.5rem;
+  margin-left:1rem;
+}
+/* .all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.rectangle-green {
+  height: 36rem;
+  width: 22rem;
+  background-color: #41E800;
+  transform:rotate(-3deg);
+}
+.rectangle-pink {
+  height: 36rem;
+  width: 22rem;
+  background-color: #FF85C2;
+  cursor: move;
+  transform:rotate(6deg);
+}
+.love{
+  transform:rotate(6deg);
+  position:absolute;
+  left:3.4rem;
+  right:2rem;
+}
+
+.movies{
+  transform:rotate(-3deg);
+  position:absolute;
+  left:1.4rem;
+  right:2rem;
+}
+.rectangle-yellow{
+  height: 36rem;
+  width: 22rem;
+  background-color: #FFD000;
+  position: absolute;
+  z-index:0;
+}
+
+p{
+  font-size: 15pt;
+  font-weight:bold;
+  position:absolute;
+  top:2rem;
+  left:2rem;
+  right:-20rem;
+/*   text-decoration:underline; */
+}
+
+#textarea {
+  position: absolute;
+  top:7rem;
+  left:rem;
+  width:290px;
+  height:440px;
+  padding: 10px 30px;
+  border: 0px;
+  background-color: #FFD000;
+  font-size:12pt;
+  line-height: 20pt;
+  overflow:auto;
+  outline:0;
+}
+
+#textarea-2 {
+  transform:rotate(6deg);
+  position: absolute;
+  top:5rem;
+  width:289px;
+  height:440px;
+  padding: 10px 30px;
+  border: 0px;
+  background-color: #FF85C2;
+  font-size:12pt;
+  line-height: 20pt;
+  overflow:auto;
+  outline:0;
+}
+
+#textarea-3 {
+  transform:rotate(-3deg);
+  position: absolute;
+  top:7rem;
+  left:.2rem;
+  width:289px;
+  height:440px;
+  padding: 10px 30px;
+  border: 0px;
+  background-color: #41E800;
+  font-size:12pt;
+  line-height: 20pt;
+  overflow:auto;
+  outline:0;
+}
+
+details summary::-webkit-details-marker{
+  display: none;
+}
+
+details[open]>summary:after{
+  content:”+”;
+}
+
+summary{
+  outline:0;
+  cursor: pointer;
+}
+
+.icon-1{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #FFD000;
+}
+
+.icon-2{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #FF85C2;
+}
+.icon-3{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #41E800;
+}
+.icon-4{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #00FFFF;
+}
+.icon-5{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #BFB4FF;
+}
+.icon-6{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #FF875B;
+}
+
+.mydiv{
+  position: absolute;
+  top:3rem;
+  left:34rem;
+  cursor: move;
+  z-index:9;
+}
+
+button{
+	margin-left:.8rem;
+	padding: 5px 5px;
+	background-color: transparent;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
