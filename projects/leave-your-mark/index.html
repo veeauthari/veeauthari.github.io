@@ -15,15 +15,49 @@
   </head>
   <body>
 <!--     <h1>+</h1> -->
-    <details>
-          <summary> <h1>+</h1></summary>
-      <button onclick="myFunction()"> <div class="icon-1"></div></button><br>
-      <button onclick="myFunction()"> <div class="icon-2"></div></button><br>
-        <button onclick="myFunction()"> <div class="icon-3"></div></button><br>
-        <button onclick="myFunction()"> <div class="icon-4"></div></button><br>
-        <button onclick="myFunction()"> <div class="icon-5"></div></button><br>
-        <button onclick="myFunction()"> <div class="icon-6"></div></button><br>
-    </details>
+    <button class="plus" onclick="myFunction()">+</button>
+    
+    <div id="content">
+    
+        <button> <div class="icon-1"></div> </button>
+        <br>
+<!-- 
+			<div id="content">
+				 <textarea id="textarea-yellow"></textarea>
+   		</div>	
+ -->
+      <button> <div class="icon-2"></div></button>
+<!-- 
+      <div id="content-2">
+				 <textarea id="textarea-pink"></textarea>
+   		</div>
+ -->
+   		<br>
+   		
+        <button> <div class="icon-3"></div></button><br>
+        <button> <div class="icon-4"></div></button><br>
+        <button> <div class="icon-5"></div></button><br>
+        <button> <div class="icon-6"></div></button><br>
+    </div>
+
+
+    <div class="mydiv six">
+        <div class="rectangle-blue"></div>
+          <p class="ig"> write down your instagram username and go follow each other!: </p>
+            <textarea id="textarea-6"></textarea>
+    </div>
+    
+    <div class="mydiv five">
+        <div class="rectangle-orange"></div>
+          <p class="not"> shows NOT to watch: </p>
+            <textarea id="textarea-5"></textarea>
+    </div>
+    
+     <div class="mydiv four">
+        <div class="rectangle-purple"></div>
+          <p class="bday"> your favorite birthday present: </p>
+            <textarea id="textarea-4"></textarea>
+    </div>
     
     <div class="mydiv three">
         <div class="rectangle-green"></div>
@@ -42,10 +76,9 @@
             <textarea id="textarea"></textarea>
       </div>
 
-
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="script.js"></script>
   </body>
