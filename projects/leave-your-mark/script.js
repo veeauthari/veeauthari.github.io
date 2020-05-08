@@ -8,22 +8,86 @@ $(document).ready(function() {
 
   $(function() {
 
-    $( ".mydiv" ).draggable({      
+    $( ".mydiv, #yellow, #pink, #green, #blue, #purple, #orange").draggable({      
     });
     });
 });
+// 
+// $(document).ready(function() {
+// 
+//   $(function() {
+// 
+//     $("#yellow, #pink").draggable({      
+//     });
+//     });
+// });
 
-// function myFunction() {
-//   var x = document.getElementById("toggle");
-//   if (x.innerHTML === "") {
-//     x.innerHTML = "Gulls are typically medium to large birds, usually grey or white, often with black markings on the head or wings";
-//   } else {
-//     x.innerHTML = "";
-//   }
-// }
+// $(document).ready(function() {
+// 
+//   $(function() {
+// 
+//     $( "#pink").draggable({      
+//     });
+//     });
+// });
 
+// 
 function myFunction() {
   var x = document.getElementById("content");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction1() {
+  var x = document.getElementById("yellow");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("pink");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction3() {
+  var x = document.getElementById("green");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction4() {
+  var x = document.getElementById("blue");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction5() {
+  var x = document.getElementById("purple");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction6() {
+  var x = document.getElementById("orange");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

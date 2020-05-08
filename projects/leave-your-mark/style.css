@@ -5,11 +5,15 @@ body {
 }
 
 #content{
+	position: fixed;
+	top:6rem;
 	display:none;
 	margin-left:.4rem;
+	z-index:10;
 }
 
 .plus{
+position: fixed;
   font-size:50pt;
   font-weight:bold;
 	padding: 2px 10px;
@@ -79,6 +83,7 @@ button:active:focus {
   background-color: #41E800;
   transform:rotate(-3deg);
 }
+
 .rectangle-pink {
   height: 36rem;
   width: 22rem;
@@ -300,10 +305,6 @@ button{
 	cursor: pointer;
 }
 
-#content-2 {
-  display: none;
-}
-
 
 button[type="text"]{
     color: transparent;
@@ -318,3 +319,12 @@ button[type="text"]:focus{
 button:focus + div#content {
   display: block;
 }
+
+#yellow, #pink, #green, #blue, #purple, #orange{
+display:none;
+z-index:10;
+position:absolute;
+cursor:move;
+}
+
+
